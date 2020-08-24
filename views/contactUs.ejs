@@ -1,0 +1,23 @@
+<%- include("./partials/header.ejs") %> 
+<body>
+    <h1>CONTACT US</h1>
+    <form action="/thank_you">
+        <div>
+            <label for="fullName">What is your Name?</label><br>
+        <input id="fullName" type="text"  name="fullName">
+        </div>
+        <div>
+            <label for="favouriteColour">What is your favourite colour</label><br>
+            <input id="favouriteColour" type="text" name="favouriteColour">
+        </div>
+        <div>
+            <label for="message">Whats in your mind?</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="send">
+        </div>
+        
+    </form>
+</body>
+<%- include("./partials/footer.ejs") %> 
